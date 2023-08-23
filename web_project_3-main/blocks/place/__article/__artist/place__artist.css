@@ -1,0 +1,13 @@
+.place__artist {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    grid-area: artist;
+    justify-content: flex-end;
+}
+
+@media screen and (max-width: 600px) {
+    .place__artist {
+        margin: 0 16px;
+    }
+}

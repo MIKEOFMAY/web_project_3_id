@@ -1,0 +1,35 @@
+.place__article {
+    display: grid;
+    grid-template-areas: "title artist" "image text" "button text";
+    grid-gap: 48px 40px;
+    grid-template-columns: 460px 1fr;
+    grid-template-rows: min-content min-content 1fr;
+    margin: 0 auto 80px;
+}
+
+.place__article:last-of-type {
+    margin: 0 auto;
+}
+
+@media screen and (max-width: 1032px) {
+    .place__article {
+        grid-gap: 48px 28px;
+        grid-template-columns: 340px 1fr;
+        margin: 0 24px 72px;
+    }
+    .place__article:last-of-type {
+        margin: 0 24px;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .place__article {
+        grid-template-areas: "title" "artist" "image" "text" "button";
+        grid-template-columns: 100%;
+        margin: 0 auto 48px;
+        row-gap: 30px;
+    }
+    .place__article:last-of-type {
+        margin: 0 auto;
+    }
+}

@@ -1,0 +1,13 @@
+.link {
+    text-decoration: none;
+    color: white;
+    border: none;
+    text-decoration-line: none;
+}
+
+.link:visited {
+    text-decoration: none;
+    color: white;
+    border: none;
+    text-decoration-line: none;
+}

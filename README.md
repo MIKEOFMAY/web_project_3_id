@@ -2,7 +2,7 @@
 
 ## Project
 
-[Dari Tanah Air Ke Tanah Air](https://github.com/MIKEOFMAY/web_project_3_id/tree/main)
+[Dari Tanah Air Ke Tanah Air](https://mikeofmay.github.io/web_project_3_id/)
 
 ## Skills
 
